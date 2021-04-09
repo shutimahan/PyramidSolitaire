@@ -1,4 +1,4 @@
-<Pyramid Solitaire Game>
+#Pyramid Solitaire Game
 
 Implemented the single-player Pyramid Solitaire game for my Object Oriented Design class in Java. \
 We were given starter code to build our project on. The starter interfaces are as listed below: \
@@ -16,14 +16,14 @@ The view renders any model textually. \
 The controller accepts and stores the Readable and Appendable for user input and output where the inputs are received \
 by the Readable while the outputs are written to the Appendable. \
  \
-<Game Layout> \
+#Game Layout \
 A standard deck of 52 cards are shuffled and dealt out into rows of lines that create a triangular shape where each \
 card is partially covered by two cards underneath. The remaining cards are placed face-down in a pile called "stock". \
 A number of cards are then turned face-up from the stock. \
 A card that is uncovered by other cards underneath are "exposed". Each card has values that equal the number written on \
 the card. As for the picture cards, Jacks equal 11, Queens 12, and Kings 13. \
  \
-<Game Rules> \
+#Game Rules \
 You can only remove one or two of the exposed cards if their values sum to exactly 13. You are allowed to turn over a \
 card from the visible card(s) from the stock (called "draw" cards) and use that to try to remove a card from the pyramid. \
 A draw card is automatically replaced with the next card from the stock when used. \
@@ -32,7 +32,7 @@ The final score of the game is the sum of all the values of the remaining cards 
 is to try to obtain the lowest score possible where zero means all the cards in the pyramid have been eliminated. \
  \
  \
-<How to play> \
+#How to play \
  \
 First, directions for the setup in IntelliJ IDEA: \
 1) Run > Edit configurations \
