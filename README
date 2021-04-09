@@ -11,7 +11,7 @@ The models maintain the state of the game and update whenever the client makes a
 	![Basic](Img/basic.png)
 	-Relaxed Pyramid Solitaire (any cards covered by only one other card are allowed to be removed as a pair)
 	-Tripeaks Pyramid Solitaire (uses 104 cards where the shape of the pyramid has three peaks)
-	![Tripeaks](Img/Tripeaks.png)
+	![Tripeaks](https://github.com/shutimahan/PyramidSolitaire/blob/main/Img/Tripeaks.png)
 The view renders any model textually.
 The controller accepts and stores the Readable and Appendable for user input and output where the inputs are received
 by the Readable while the outputs are written to the Appendable.
