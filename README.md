@@ -52,8 +52,8 @@ run icon in the toolbar to choose among them and press "Run".
 After the game has started, use the commands below to proceed with game. Every input should be written in the console:
 ![rm1](Img/rm1.png)
 
--Remove 1 card from the pyramid: input "rm1" followed by the row and card number of the card. (ex. "rm1 2 4" removes
-the fourth card from row 2)
+-Remove 1 card from the pyramid: input "rm1" followed by the row and card number of the card. (ex. "rm1 7 1" removes
+the 1st card from row 7)
 
 -Remove 2 cards from the pyramid: input "rm2" followed by the row and card numbers of each card. (ex. "rm2 2 4 7 7"
 removes the fourth card from row 2 and the 7th card from row 7)
