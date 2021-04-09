@@ -14,14 +14,14 @@ The models maintain the state of the game and update whenever the client makes a
 	![Tripeaks](Img/Tripeaks.png) \
 The view renders any model textually. \
 The controller accepts and stores the Readable and Appendable for user input and output where the inputs are received \
-by the Readable while the outputs are written to the Appendable. \
+by the Readable while the outputs are written to the Appendable.
 
 ## Game Layout
 A standard deck of 52 cards are shuffled and dealt out into rows of lines that create a triangular shape where each \
 card is partially covered by two cards underneath. The remaining cards are placed face-down in a pile called "stock". \
 A number of cards are then turned face-up from the stock. \
 A card that is uncovered by other cards underneath are "exposed". Each card has values that equal the number written on \
-the card. As for the picture cards, Jacks equal 11, Queens 12, and Kings 13. \
+the card. As for the picture cards, Jacks equal 11, Queens 12, and Kings 13.
 
 ## Game Rules
 You can only remove one or two of the exposed cards if their values sum to exactly 13. You are allowed to turn over a \
@@ -30,20 +30,20 @@ A draw card is automatically replaced with the next card from the stock when use
  \
 The final score of the game is the sum of all the values of the remaining cards in the pyramid. Your goal as the player \
 is to try to obtain the lowest score possible where zero means all the cards in the pyramid have been eliminated. \
- \
+
 
 ## How to play
  \
-First, directions for the setup in IntelliJ IDEA: \
-1) Run > Edit configurations \
-2) Select the "+" button and click on "Application" from the dropdown. \
+First, directions for the setup in IntelliJ IDEA:
+1) Run > Edit configurations
+2) Select the "+" button and click on "Application" from the dropdown.
 3) Write the name of the configuration as the type of model and the number of specified rows and number of draw cards \
-(ex. "Relaxed 5/4") for convenience. \
-4) In the text box for the "Main" class, enter "cs3500.pyramidsolitaire.PyramidSolitaire". \
-5) In the text box for "Program arguments", first enter either "basic", "relaxed", or "tripeaks" to determine which \
+(ex. "Relaxed 5/4") for convenience.
+4) In the text box for the "Main" class, enter "cs3500.pyramidsolitaire.PyramidSolitaire".
+5) In the text box for "Program arguments", first enter either "basic", "relaxed", or "tripeaks" to determine which
 version of the game you would like to play. Then, you may optionally enter two more arguments R and D where R determines \
 the number of rows and D the number of draw cards you would like. If unspecified, the default is 7 rows and 3 draw cards. \
-(ex. "relaxed 5,4" produces a game of the solitaire with relaxed rules where the pyramid has 5 rows and 4 visible draw cards) \
+(ex. "relaxed 5,4" produces a game of the solitaire with relaxed rules where the pyramid has 5 rows and 4 visible draw cards)
 6) Everything else should be left at default. Click "OK". \
 Steps 1-6 can be repeated as needed to run any number of configurations necessary. Use the drop-down menu next to the \
 run icon in the toolbar to choose among them and press "Run". \
