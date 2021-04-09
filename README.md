@@ -29,7 +29,7 @@ card from the visible card(s) from the stock (called "draw" cards) and use that 
 A draw card is automatically replaced with the next card from the stock when used. \
  \
 The final score of the game is the sum of all the values of the remaining cards in the pyramid. Your goal as the player \
-is to try to obtain the lowest score possible where zero means all the cards in the pyramid have been eliminated. \
+is to try to obtain the lowest score possible where zero means all the cards in the pyramid have been eliminated.
 
 
 ## How to play
