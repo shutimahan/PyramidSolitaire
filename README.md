@@ -1,4 +1,4 @@
-<Pyramid Solitaire Game>
+#<Pyramid Solitaire Game>
 
 Implemented the single-player Pyramid Solitaire game for my Object Oriented Design class in Java. \
 We were given starter code to build our project on. The starter interfaces are as listed below: \
